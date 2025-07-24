@@ -16,5 +16,9 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update
 sudo apt-get install -y jenkins
+jenkins --version
+sleep 5
+echo "Jenkins installation is sucessfull"
+sleep 5
 
 
